@@ -1,0 +1,16 @@
+{
+    "applications": [
+        {
+            "name": "Sky Summer Internship", 
+            "location": "Leeds",
+            "status":"awaiting interview", 
+            "id":1 
+        },
+        {
+            "name": "Natwest", 
+            "location": "Remote", 
+            "status":"rejected",
+            "id":2
+        }
+    ]
+}

@@ -7,6 +7,51 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  margin: 0;
+  text-decoration:none;
+}
+/*navbar*/
+.navbar {
+  padding:20px;
+  display:flex;
+  align-items:center;
+  margin: 0 auto;
+  border-bottom:1px solid #f2f2f2;
+}
+
+.navbar .links{
+  margin-left:auto;
+}
+
+.navbar a:visited,
+.navbar a {
+  margin-left:16px;
+  text-decoration: none;
+  padding:6px;
+}
+/*preview*/
+.preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.preview h2 {
+  font-size: 20px;
+  color: #0f23f9;
+  margin-bottom: 8px;
+}
+.preview a{
+  text-decoration: none;
+}
+
+.content {
+  margin:40px auto;
+  padding:20px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
