@@ -16,7 +16,7 @@ const Home = () => {
             <input type="text" value={inputValue} onChange={handleChange} />
             {error && <div>{error}</div>}
             {isPending && <div>Loading content... </div>}
-            {applications && <ApplicationList applications = {applications.filter((application) => application.name.toLowerCase().includes(inputValue.toLowerCase())) }/> }
+            {applications && <ApplicationList applications = {applications.filter((application) => application.org.toLowerCase().includes(inputValue.toLowerCase())||application.role.toLowerCase().includes(inputValue.toLowerCase())) }/> }
             
         </div>
       );

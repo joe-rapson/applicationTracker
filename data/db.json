@@ -1,16 +1,12 @@
 {
-    "applications": [
-        {
-            "name": "Sky Summer Internship", 
-            "location": "Leeds",
-            "status":"awaiting interview", 
-            "id":1 
-        },
-        {
-            "name": "Natwest", 
-            "location": "Remote", 
-            "status":"rejected",
-            "id":2
-        }
-    ]
+  "applications": [
+    {
+      "id": "c133",
+      "org": "sky",
+      "role": "summer software intern",
+      "loc": "leeds",
+      "deadline": "2024-04-16T09:00",
+      "startDate": ""
+    }
+  ]
 }
